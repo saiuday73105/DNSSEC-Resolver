@@ -1,0 +1,47 @@
+<==========================================================>
+	Output of mydig for cnn.com. and 'A' record
+	Input:	python mydigTool.py cnn.com. A
+<==========================================================>
+QUESTION SECTION:
+cnn.com.         IN   A 
+
+ANSWER SECTION:
+cnn.com.         IN   A   151.101.131.5
+cnn.com.         IN   A   151.101.67.5
+cnn.com.         IN   A   151.101.3.5
+cnn.com.         IN   A   151.101.195.5 
+
+Query time:  59 msec
+WHEN:  Mon Sep 19 05:24:09 2022
+MSG SIZE rcvd:  64
+<==========================================================>
+	Output of mydig for cnn.com. and 'NS' record
+	Input:	python mydigTool.py cnn.com. NS
+<==========================================================>
+QUESTION SECTION:
+cnn.com.         IN   NS 
+
+ANSWER SECTION:
+cnn.com.         IN   NS   ns-1086.awsdns-07.org.
+cnn.com.         IN   NS   ns-1630.awsdns-11.co.uk.
+cnn.com.         IN   NS   ns-47.awsdns-05.com.
+cnn.com.         IN   NS   ns-576.awsdns-08.net. 
+
+Query time:  56 msec
+WHEN:  Mon Sep 19 05:24:29 2022
+MSG SIZE rcvd:  64
+<==========================================================>
+	Output of mydig for cnn.com. and 'MX' record
+	Input:	python mydigTool.py cnn.com. MX
+<==========================================================>
+QUESTION SECTION:
+cnn.com.         IN   MX 
+
+ANSWER SECTION:
+cnn.com.         IN   MX   mxa-00241e02.gslb.pphosted.com.
+cnn.com.         IN   MX   mxb-00241e02.gslb.pphosted.com. 
+
+Query time:  84 msec
+WHEN:  Mon Sep 19 05:24:56 2022
+MSG SIZE rcvd:  64
+<==========================================================>
