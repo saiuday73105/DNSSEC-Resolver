@@ -4,7 +4,7 @@
 A custom DNS resolver that supports the DNSSEC (Domain Name System Security Extensions) protocol. The resolver performs the traditional DNS resolution on different domain types (`A`, `NS`, `MX`) and also reports performance metrics such as the query resolution time. To have a secure resolution, the DNS resolver uses the DNSSEC protocol.
 
 ### Workflow
-
+![alt text](https://github.com/saiuday73105/DNSSEC-Resolver/blob/main/DNSSEC%20Workflow.png?raw=true)
 
 ### Implementation
 The explanation of the implementation would be more precise with an example. For the input domain
@@ -45,6 +45,6 @@ the authority section to resolve them.
 - Like this the process is continued  till the while loop we started is broken.
 
 The “DNSSEC not supported” case arises if at any zone we do not get RRSet, RRSig, or DS record of the child
-zone. Apart from this, the “DNSSEC verifica on failed” case arises when the hash of the public KSK obtained
+zone. Apart from this, the “DNSSEC verification failed” case arises when the hash of the public KSK obtained
 from the child zone does not match with the DS of the child obtained from the parent zone and also when
 are not able to validate the RRSig of DNSKEY or DS record.
